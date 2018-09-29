@@ -1,0 +1,11 @@
+body{
+    background-image: url(https://media.giphy.com/media/DITaUdrnjzw4g/giphy.gif);
+    background-size: cover;
+}
+#sign-in{   
+    max-width: 400px;
+}
+.logo{
+    margin-left: 100px;
+    
+}

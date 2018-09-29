@@ -1,0 +1,66 @@
+body{
+    background: repeating-linear-gradient(
+      -45deg,
+      #292828,
+      #7c7c7c 20px,
+      #0e8155 10px,
+      #185ddd 30px
+    );
+    }
+    #nav {
+        position:fixed;
+        border-bottom: solid 5px black;
+        z-index: 10000;
+    }
+   .icon{
+       height: 50px;
+       width: 50px;
+   }
+   
+    /* changed to side_nave */
+    #side_nav{ 
+        background: #cfcfcf;
+        border: solid rgb(128, 128, 128) 1px;
+        opacity: .88;
+        box-shadow: 5px 5px;
+        position: fixed;
+        z-index: 10000;
+    }
+    .row-btn{
+        margin-left: 20px;
+    }
+    .food-name{
+        margin-left: 20px;
+    }
+    .nav-link{
+        color:rgb(68, 55, 55);
+    }
+    .btn{
+        margin-bottom: 100px;
+    }
+    .card{
+        max-width: 350px;
+        max-height: 250px;
+    }
+    /* map size */
+    #map{
+        height: 50%;
+        margin: 10px;
+    }
+    /* pop-up diameter */
+    .pop-up{
+        min-width: 550px;
+        min-height: 500px;
+        background: rgba(255, 255, 255, 0.678);
+    }
+    /* set image size */
+    .activator{
+        max-height:200px;
+        max-width:300px;
+    }
+
+    /* provide rounded exit button for pop-up */
+    .exit{
+        height:30px;
+        border-radius: 50%;
+    }
